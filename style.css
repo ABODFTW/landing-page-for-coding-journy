@@ -1,0 +1,88 @@
+section{
+    height: 100vh;
+    background-color: #f88;
+}
+p{
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+i{
+    font-size: 3em;
+}
+a{
+    color:#333;
+}
+a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.container{
+    position: relative;
+    top:20%;
+    text-align: center;
+}
+.sub-form{
+    margin:auto;
+    display:inline-block;
+    width:auto;
+    margin-top: 10vh;
+    background-color: #fff;
+    border-radius: 5em;
+}
+.button{
+    float:right;
+    display: inline-block;
+    background-color:#333;
+    color:#fff;
+    border: none;
+    padding:1em;
+    border-radius: 5em;
+}
+.button:hover{
+    cursor: pointer;
+    background-color:#555;
+    color:#fff;
+}
+.footer{
+    margin-top: 5em;
+    margin-right:2em;
+}
+.note{
+    font-size:.8em;
+    opacity: .7;
+}
+#InputField{
+    border:none;
+    outline: none;
+    padding:1em;
+    border-radius: 5em;
+}
+#headline{
+    font-size:8em;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Media Queries */
+
+@media (max-width:990px){
+    .container{
+        top: 0;
+    }
+}
+@media (max-width:400px){
+    #headline{
+        font-size: 5em;
+    }
+    p{
+        font-size: 1.1em;
+    }
+    .sub-form{
+        margin-top:0;
+    }
+}
